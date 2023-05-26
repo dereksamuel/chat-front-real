@@ -1,0 +1,10 @@
+.login-form {
+  max-width: 400px;
+  border: none;
+  background: none;
+}
+
+.card-body {
+  border-radius: 10px;
+  background-color: var(--color-dark);
+}

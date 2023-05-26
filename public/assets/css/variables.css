@@ -1,0 +1,67 @@
+:root {
+  --color-primary: #48dbb6;
+  --color-primary-hover: #3dcfab;
+  --color-primary-disabled: #5db39d;
+  --color-dark: rgb(41, 41, 41);
+  --color-secondary: rgb(106, 116, 117);
+  --color-secondary-sec: rgb(59, 66, 66);
+  --color-secondary-hover: rgb(41, 46, 46);
+  --color-secondary-disabled: rgb(113, 115, 116);
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-dark {
+  --bs-btn-color: var(--color-dark);
+  --bs-btn-bg: var(--color-primary);
+  --bs-btn-border-color: var(--color-primary);
+  --bs-btn-hover-color: var(--color-dark);
+  --bs-btn-hover-bg: var(--color-primary-hover);
+  --bs-btn-hover-border-color: var(--color-primary-hover);
+  --bs-btn-active-color: var(--color-dark);
+  --bs-btn-active-bg: var(--color-primary-hover);
+  --bs-btn-active-border-color: var(--color-primary-hover);
+  --bs-btn-disabled-color: var(--color-dark);
+  --bs-btn-disabled-bg: var(--color-primary-disabled);
+  --bs-btn-disabled-border-color: var(--color-primary-disabled);
+}
+
+.btn-secondary {
+  --bs-btn-color: rgb(241, 241, 241);
+  --bs-btn-bg: var(--color-secondary-sec);
+  --bs-btn-border-color: var(--color-secondary-sec);
+  --bs-btn-hover-color: rgb(241, 241, 241);
+  --bs-btn-hover-bg: var(--color-secondary-hover);
+  --bs-btn-hover-border-color: rgba(255, 255, 255, 0.671);
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: var(--color-secondary-hover);
+  --bs-btn-active-border-color: rgba(255, 255, 255, 0.671);
+  --bs-btn-disabled-color: rgb(241, 241, 241);
+  --bs-btn-disabled-bg: var(--color-secondary-disabled);
+  --bs-btn-disabled-border-color: var(--color-secondary-disabled);
+}
+
+.list-group-item {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.input-group-text,
+.form-control,
+.form-control:focus {
+  background-color: var(--color-secondary);
+  border: none;
+  color: white;
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 0.75;
+}

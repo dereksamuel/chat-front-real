@@ -1,0 +1,29 @@
+.channels-menu-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 7px;
+  border: none;
+}
+
+.channels-menu-item__icon {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.channels-menu-item__icon svg {
+  font-size: 25px;
+}
+
+.channels-menu-item__text {
+  display: block;
+  opacity: 0.75;
+  font-weight: 600;
+}

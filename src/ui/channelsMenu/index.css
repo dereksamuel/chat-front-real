@@ -1,0 +1,4 @@
+.channels-menu__list--header,
+.channels-menu__list--input {
+  border-bottom-color: var(--color-secondary-sec);
+}

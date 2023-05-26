@@ -1,0 +1,18 @@
+.Menu {
+  background-color: var(--color-dark);
+}
+
+.session-menu {
+  border-top: 0.5px solid var(--color-secondary-sec);
+  cursor: pointer;
+}
+
+.session-menu-container {
+  gap: 15px;
+}
+
+.session-menu-container__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
