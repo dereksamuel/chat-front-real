@@ -11,8 +11,7 @@
 
 .btn {
   font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
+  font-weight: 700;
 }
 
 .btn-primary,
@@ -45,6 +44,7 @@
   --bs-btn-disabled-color: rgb(241, 241, 241);
   --bs-btn-disabled-bg: var(--color-secondary-disabled);
   --bs-btn-disabled-border-color: var(--color-secondary-disabled);
+  font-weight: 600;
 }
 
 .list-group-item {

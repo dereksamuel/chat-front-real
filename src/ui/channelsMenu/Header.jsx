@@ -11,11 +11,11 @@ function Header() {
     >
       <h4 className='m-0'>Channels</h4>
       <Button
-        className='m-0 py-1 px-3'
+        className='m-0 py-0 px-2'
         variant='secondary'
         size='sm'
       >
-        <IoMdAdd className='m-0' />
+        <IoMdAdd className='m-0' size={20} />
       </Button>
     </header>
   )

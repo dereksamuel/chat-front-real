@@ -1,5 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
+require('dotenv').config()
 
 module.exports = {
   entry: path.join(__dirname, "/src/index.js"),
@@ -10,6 +12,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public", "index.html")
+    }),
+    new webpack.DefinePlugin({
+      "process.env.HOST_BACKEND": JSON.stringify(process.env.HOST_BACKEND)
     })
   ],
   devServer: {
