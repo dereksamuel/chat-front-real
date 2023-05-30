@@ -31,6 +31,7 @@ function LoginForm() {
               type='email'
               name='email'
               required
+              data-testid="input"
             />
           </InputGroup>
           <InputGroup
@@ -48,6 +49,7 @@ function LoginForm() {
               className='p-2'
               name='password'
               required
+              data-testid="input"
             />
           </InputGroup>
           <Button
